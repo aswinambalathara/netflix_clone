@@ -20,9 +20,19 @@ overflow-y: hidden;
     max-height: 250px;
     margin-right: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
+
+
 .smallPoster{
     max-height: 150px;
     margin-right: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.poster:hover, .smallPoster:hover{
+    transform: scale(1.2);
 }

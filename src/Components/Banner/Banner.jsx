@@ -9,7 +9,7 @@ export default function Banner(props) {
     axios
       .get(props.url)
       .then((response) => {
-        console.log(response.data.results[0]);
+        //console.log(response.data.results[0]);
         setMovie(response.data.results[0]);
       });
   }, []);
